@@ -1,4 +1,7 @@
 # set-oh-my-posh-dracula-theme-username.ps1
+# Usage:
+# for pwsh: $script = "$env:TEMP\set-omp.ps1"; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/jseo12/util/main/set-oh-my-posh-dracula-theme-username.ps1" -OutFile $script; pwsh $script Username; Remove-Item $script
+# for powershell: $script = "$env:TEMP\set-omp.ps1"; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/jseo12/util/main/set-oh-my-posh-dracula-theme-username.ps1" -OutFile $script; powershell $script Username; Remove-Item $script
 
 param (
     [Parameter(Mandatory=$true)]
